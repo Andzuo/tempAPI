@@ -1,0 +1,77 @@
+:root {
+    --bg-colo1: #0F353D;
+    --btn-colors: #FFE500;
+    --card-colors: #ffff;
+    --input-color: #313131;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+body {
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-colo1);
+}
+
+.container {
+    background-color: var(--card-colors);
+
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px;
+    width: 95%;
+    max-width: 450px;
+}
+.city-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: var(--input-color);
+    color: #ffff;
+    width: calc(100% -100px);
+}
+.btn1{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: var(--btn-colors);
+    cursor: pointer;
+    float: right;
+    margin-left: 50px;
+    
+}
+.btn1 img {
+    width: 20px; 
+}
+
+.container-secundary {
+    font-size: 20px;
+    font-weight: 300;
+}
+.container-secundary h2 {
+    margin-top: 10px;
+}
+.container-secundary p{
+    font-size: 15px;
+}
+.container-temp {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.container-temp h3 {
+    margin-left: 20px;
+}
+.container-secundary .umity{
+    margin-top: 20px;
+}
