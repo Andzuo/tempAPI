@@ -12,6 +12,7 @@
 }
 body {
     display: flex;
+    flex: 2;;
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
@@ -28,6 +29,7 @@ body {
     box-shadow: 10px 10px 10px;
     width: 95%;
     max-width: 450px;
+    text-wrap: nowrap;
 }
 .city-input {
     border: none;
@@ -38,8 +40,9 @@ body {
     background-color: var(--input-color);
     color: #ffff;
     width: calc(100% -100px);
+    min-width: 250px;
 }
-.btn1{
+button{
     border: none;
     outline: none;
     padding: 10px;
@@ -47,10 +50,8 @@ body {
     background-color: var(--btn-colors);
     cursor: pointer;
     float: right;
-    margin-left: 50px;
-    
 }
-.btn1 img {
+button img {
     width: 20px; 
 }
 
@@ -74,4 +75,10 @@ body {
 }
 .container-secundary .umity{
     margin-top: 20px;
+}
+.weather {
+    text-transform: capitalize;
+}
+.city {
+    text-transform: uppercase;
 }
