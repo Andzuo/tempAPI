@@ -28,8 +28,8 @@ body {
     padding: 20px;
     box-shadow: 10px 10px 10px;
     width: 95%;
-    max-width: 450px;
-    text-wrap: nowrap;
+    max-width: 400px;
+    min-width: 300px
 }
 .city-input {
     border: none;
@@ -39,8 +39,7 @@ body {
     font-size: 18px;
     background-color: var(--input-color);
     color: #ffff;
-    width: calc(100% -100px);
-    min-width: 250px;
+    min-width: 200px
 }
 button{
     border: none;
@@ -71,7 +70,7 @@ button img {
     margin-top: 10px;
 }
 .container-temp h3 {
-    margin-left: 20px;
+    margin-left: 20px;    
 }
 .container-secundary .umity{
     margin-top: 20px;
