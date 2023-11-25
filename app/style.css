@@ -4,6 +4,10 @@
     --card-colors: #ffff;
     --input-color: #313131;
 }
+.bg-transition {
+    transition: 0.5s ease-in-out;
+    animation: 0.5s ease-in-out;
+}
 
 * {
     margin: 0;
@@ -37,7 +41,7 @@ video {
     position: absolute;
     border-radius: 30px;
     padding: 20px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 3px 2px 30px;
     width: 95%;
     max-width: 400px;
     min-width: 300px
@@ -91,4 +95,8 @@ button img {
 }
 .city {
     text-transform: uppercase;
+}
+
+.temp-icon {
+    
 }

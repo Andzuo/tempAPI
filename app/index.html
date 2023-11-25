@@ -7,8 +7,8 @@
     <title>Tempo</title>
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="/public/coverr-beautiful-forest-in-autumn-5508-1080p.mp4" type="video/mp4">
+    <video id="videoPlay" autoplay muted loop>
+        <source id="videoSource" class="bg-body" src="" type="video/mp4">
     </video>
     <section class="container">
         <input class="city-input" placeholder="Digite o nome da cidade">
@@ -16,11 +16,11 @@
             <img src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
         </button>
         <div class="container-secundary">
-            <h2 class="city">Selecione uma cidade..</h2>
+            <h2 class="city">Digite uma cidade..</h2>
             <p class="temp">0°C</p>
             <div class="container-temp">
                 <img class="temp-icon" src="https://openweathermap.org/img/wn/04n.png" alt=""> 
-                <h3 class="weather">undefined</h3>
+                <h3 class="weather"></h3>
             </div>
             <p class="umity">Umidade: 0%</p>
         </div>
